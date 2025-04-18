@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Skill Cluster - InterviewIQ</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0fff4;
+      color: #2d2d2d;
+    }
+
+    header {
+      background-color: #a0f0c0;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+      text-align: center;
+    }
+
+    .container h2 {
+      color: #2e7d32;
+      margin-bottom: 20px;
+    }
+
+    .container p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      background-color: #4caf50;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #388e3c;
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Skill Cluster - InterviewIQ</h1>
+  </header>
+
+  <div class="container">
+    <h2>Smart Candidate Clustering</h2>
+    <p>
+      This module of <strong>InterviewIQ</strong> analyzes mock interview performance of candidates based on real-time metrics like technical accuracy, confidence, and response time.
+      Using advanced clustering algorithms, it classifies candidates into tiers like <em>Below Average</em>, <em>Average</em>, <em>Good</em>, and <em>Ready for Interview</em>.
+      <br><br>
+      Unlock smarter insights from interview data across popular domains like <strong>SDE, ML, HR, DevOps</strong>, and more!
+    </p>
+
+    <button class="btn" onclick="redirectToCluster()">Get Your Cluster</button>
+  </div>
+
+  <footer>
+    © 2025 InterviewIQ | Built with ❤️ to power smarter interview prep
+  </footer>
+
+  <script>
+    function redirectToCluster() {
+      window.location.href = "/get_cluster";
+    }
+  </script>
+
+</body>
+</html>

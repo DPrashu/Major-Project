@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>InterviewIQ - Below Average Cluster</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/below_average.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1 class="heading">Don't Worry! You're on the Right Track 👣</h1>
+    <p class="subheading">Your current performance places you in the <span class="highlight">"Below Average"</span> cluster.</p>
+    
+    <div class="details">
+      <h2>What This Means</h2>
+      <p>You may need to work on fundamental concepts and practice more on your core skills like coding, DSA, and system design basics.</p>
+      
+      <h2>Improvement Tips 📈</h2>
+      <ul>
+        <li>Review basic data structures and algorithms.</li>
+        <li>Take mock interviews more frequently on InterviewIQ.</li>
+        <li>Spend 30–45 minutes daily solving coding problems.</li>
+        <li>Focus on your confidence and clarity during answers.</li>
+        <li>Watch free mock interviews online to observe body language and strategy.</li>
+      </ul>
+    </div>
+
+    <div class="actions">
+      <button onclick="retakeInterview()">🔁 Retake Interview</button>
+      <button onclick="exploreResources()">📚 Explore Resources</button>
+    </div>
+  </div>
+
+  <script>
+    function retakeInterview() {
+      window.location.href = "https://interviewiq-by-aadishjain.netlify.app/";  // You can change this to your actual retake URL
+    }
+
+    function exploreResources() {
+      window.location.href = "https://www.geeksforgeeks.org/"; // Example resource
+    }
+  </script>
+</body>
+</html>
